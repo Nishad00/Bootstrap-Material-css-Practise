@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HRMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    ul li a{
+        font-size: 20px;
+    }
+    ul li a:hover{
+        text-decoration: none;
+        color: white;
+    }
+</style>    
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+        <a class="navbar-brand" href="#">Company Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="dashbord.html">Home <span class="sr-only">(current)</span></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Add
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" style="font-size:17px;" href="addrole.html">Add role</a>
+                <a class="dropdown-item" style="font-size:17px;" href="newuser.html">add User</a>
+            </li>&nbsp;&nbsp;
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Training
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" style="font-size:17px;" href="employeecompletedtraining.html">Completed</a>
+                      <a class="dropdown-item" style="font-size:17px;" href="requiredtrainig.html">Required</a>
+                      <a class="dropdown-item" style="font-size:17px;" href="assigntraining.html">Set Training</a>
+                      <a class="dropdown-item" style="font-size:17px;" href="viewtraining.html">View Traning</a>
+                  </li>
+                  &nbsp;&nbsp;
+                  <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Recruitment
+                        </a>
+                        <div class="dropdown-menu" style="font-size:17px;" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" style="font-size:17px;" href="#">Select --</a>
+                          <a class="dropdown-item" style="font-size:17px;" href="assignInter.html">Select Interview</a>
+                          <a class="dropdown-item" style="font-size:17px;" href="#">View vacancy</a>
+                          <a class="dropdown-item" style="font-size:17px;" href="#">View Shortlist</a>
+                          <a class="dropdown-item" style="font-size:17px;" href="viewinterview.html">View Interview</a>
+                          <a class="dropdown-item" style="font-size:17px;" href="#">Shortlist Candidate</a>
+                      </li>
+                      &nbsp;&nbsp;
+                      <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Employee
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" style="font-size:17px;" href="edituser.html">Edit</a>
+                              <a class="dropdown-item" style="font-size:17px;" href="userdetails.html">View Employee</a>
+                              <a class="dropdown-item" style="font-size:17px;"  href="#">View Role</a>
+                          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <li class="nav-item ">
+                                <a class="nav-link" href="#" ><span  class="glyphicon glyphicon-user"></span></a>
+                              </li>
+        </div>
+      </nav>
+</header>
+
+
+
+<br>
+<!-- code for Form  Crete as per your Requirement Only Change Input field-->
+<div class="contact" id="contact">
+    
+   <section style="margin-top: 50px;" id="contact">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-8">
+                   <div class="card">
+                       <div class="card-body">
+
+						  <center>
+                           <form class="contact__form" method="post" action="viewinterview.html">
+                               <!-- form element -->
+
+                               <!-- Create form According to Your Requirment Of our Project if your have Any Problem Related to this Code if you not able to Understant something then Tell me. -->
+                               <div class="column">
+                                
+                                   
+                                 
+                                <div class="col-md-6 form-group">
+                                        <select>
+                                          <option value="" disabled selected>Select Role</option>
+                                          <option value="1">Worker</option>
+                                          <option value="2">Manager</option>
+                                          <option value="3">Senior Manager</option>
+                                        </select> 
+                                      </div>
+								</div>
+								<div class="col-md-6 form-group">
+										<input name="name" type="text" class="form-control" placeholder="Interviewer Name" required>
+									</div>
+								   <br>
+								   <div class="col-12 form-group">
+										<input type="button" class="datepicker  btn btn-outline-primary" value="Choose Interview Date"> 
+									</div>
+									<br>
+									<div class="col-12 form-group">
+											<input type="button" class="timepicker  btn btn-outline-primary" value="Choose Interview Time" > 
+									</div>
+
+									<div class="col-12">
+											<input name="submit" type="submit" class="btn btn-success" value="submit ">
+										</div>
+										
+									
+									<br>
+								   
+
+
+                               </div>
+                               <!-- end form element -->
+						    </center>
+							</form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div></div>
+   </section>
+   
+
+<br>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+
+
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav();
+$('.materialboxed').materialbox();
+$('.parallax').parallax();
+$('.tabs').tabs();
+$('.datepicker').datepicker();
+$('.timepicker').timepicker();
+$('select').formSelect();
+
+});
+</script>
+    </body>
+</html>
