@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HRMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    ul li a{
+        font-size: 20px;
+    }
+    ul li a:hover{
+        text-decoration: none;
+        color: white;
+    }
+</style>    
+<body>
+<header>
+    <nav class="nav-wrapper indigo  " id="mainNav">
+            <div class="container">
+                <a href="#" class="brand-logo">Compony Logo</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons" style="color: black;">menu</i>
+                </a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="dashbord.html">Home</a></li>
+                  <li><a href="#contact">Contact us</a></li>
+                  <li><a href="login.html">About us</a></li>
+
+          
+              </ul>
+          
+              <ul class="sidenav gray lighten-2" id="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="login.html">About us</a></li>
+
+                 
+              </ul>
+            
+              </div>
+          </nav>
+        </header>
+
+
+
+<br>
+<!-- code for Form  Crete as per your Requirement Only Change Input field-->
+<div class="contact" id="contact">
+    
+   <section style="margin-top: 50px;" id="contact">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-8">
+                   <div class="card ">
+                       <div class="card-body">
+                           <form class="contact__form" method="post" action="admindash.html">
+                                <div class="row">
+                                   <div class="col-md-12 form-group">
+                                        <input name="name" type="text" class="form-control" placeholder="Role Name" required>
+                                    </div>
+                                    <div class="col-md-12 form-group">
+                                      <input name="name" type="number" class="form-control" placeholder="No. of skills" value="5" required>
+                              </div>   <br>
+                                    <div class="col-md-3 form-group">
+                                            <input name="name" type="text" class="form-control" placeholder="Skill No 1" required>
+                                    </div> 
+                                    <div class="col-2"></div>
+                                    <p>
+                                            <label>
+                                              <input name="group1" class="with-gap" type="radio"  />
+                                              <span>1</span>
+                                            </label>
+                                          </p>
+                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                          <p>
+                                            <label>
+                                              <input name="group1" class="with-gap" type="radio" />
+                                              <span>2</span>
+                                            </label>
+                                          </p>
+                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                          <p>
+                                            <label>
+                                              <input class="with-gap"  name="group1" type="radio" checked  />
+                                              <span>3</span>
+                                            </label>
+                                          </p>
+                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                          <p>
+                                            <label>
+                                              <input name="group1" class="with-gap" type="radio"  />
+                                              <span>4</span>
+                                            </label>
+                                          </p>      
+                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                          <p>
+                                            <label>
+                                              <input name="group1" class="with-gap" type="radio"  />
+                                              <span>5</span>
+                                            </label>
+                                          </p>                           
+
+
+                                          <div class="col-md-3 form-group">
+                                                <input name="name" type="text" class="form-control" placeholder="Skill No 2" required>
+                                        </div> 
+                                        <div class="col-2"></div>
+                                        <p>
+                                                <label>
+                                                  <input name="group2" class="with-gap" type="radio"  />
+                                                  <span>1</span>
+                                                </label>
+                                              </p>
+                                              &nbsp; &nbsp; &nbsp; &nbsp;
+                                              <p>
+                                                <label>
+                                                  <input name="group2" class="with-gap" type="radio" />
+                                                  <span>2</span>
+                                                </label>
+                                              </p>
+                                              &nbsp; &nbsp; &nbsp; &nbsp;
+                                              <p>
+                                                <label>
+                                                  <input class="with-gap"  name="group2" type="radio" checked  />
+                                                  <span>3</span>
+                                                </label>
+                                              </p>
+                                              &nbsp; &nbsp; &nbsp; &nbsp;
+                                              <p>
+                                                <label>
+                                                  <input name="group2" class="with-gap" type="radio"  />
+                                                  <span>4</span>
+                                                </label>
+                                              </p>      
+                                              &nbsp; &nbsp; &nbsp; &nbsp;
+                                              <p>
+                                                <label>
+                                                  <input name="group2" class="with-gap" type="radio"  />
+                                                  <span>5</span>
+                                                </label>
+                                              </p>                           
+    
+
+                                              
+                                              <div class="col-md-3 form-group">
+                                                    <input name="name" type="text" class="form-control" placeholder="Skill No 3" required>
+                                            </div> 
+                                            <div class="col-2"></div>
+                                            <p>
+                                                    <label>
+                                                      <input name="group3" class="with-gap" type="radio" checked />
+                                                      <span>1</span>
+                                                    </label>
+                                                  </p>
+                                                  &nbsp; &nbsp; &nbsp; &nbsp;
+                                                  <p>
+                                                    <label>
+                                                      <input name="group3" class="with-gap" type="radio" />
+                                                      <span>2</span>
+                                                    </label>
+                                                  </p>
+                                                  &nbsp; &nbsp; &nbsp; &nbsp;
+                                                  <p>
+                                                    <label>
+                                                      <input class="with-gap"  name="group3" type="radio"  />
+                                                      <span>3</span>
+                                                    </label>
+                                                  </p>
+                                                  &nbsp; &nbsp; &nbsp; &nbsp;
+                                                  <p>
+                                                    <label>
+                                                      <input name="group3" class="with-gap" type="radio"  />
+                                                      <span>4</span>
+                                                    </label>
+                                                  </p>      
+                                                  &nbsp; &nbsp; &nbsp; &nbsp;
+                                                  <p>
+                                                    <label>
+                                                      <input name="group3" class="with-gap" type="radio" />
+                                                      <span>5</span>
+                                                    </label>
+                                                  </p>                           
+        
+
+                                                  
+                                                  <div class="col-md-3 form-group">
+                                                        <input name="name" type="text" class="form-control" placeholder="Fitting" required>
+                                                </div> 
+                                                <div class="col-2"></div>
+                                                <p>
+                                                        <label>
+                                                          <input name="group4" class="with-gap" type="radio" checked />
+                                                          <span>1</span>
+                                                        </label>
+                                                      </p>
+                                                      &nbsp; &nbsp; &nbsp; &nbsp;
+                                                      <p>
+                                                        <label>
+                                                          <input name="group4" class="with-gap" type="radio" />
+                                                          <span>2</span>
+                                                        </label>
+                                                      </p>
+                                                      &nbsp; &nbsp; &nbsp; &nbsp;
+                                                      <p>
+                                                        <label>
+                                                          <input class="with-gap"  name="group4" type="radio"  />
+                                                          <span>3</span>
+                                                        </label>
+                                                      </p>
+                                                      &nbsp; &nbsp; &nbsp; &nbsp;
+                                                      <p>
+                                                        <label>
+                                                          <input name="group4" class="with-gap" type="radio"  />
+                                                          <span>4</span>
+                                                        </label>
+                                                      </p>      
+                                                      &nbsp; &nbsp; &nbsp; &nbsp;
+                                                      <p>
+                                                        <label>
+                                                          <input name="group4" class="with-gap" type="radio"  />
+                                                          <span>5</span>
+                                                        </label>
+                                                      </p>                           
+            
+
+                                                      
+                                                      <div class="col-md-3 form-group">
+                                                            <input name="name" type="text" class="form-control" placeholder="Skill No 5" required>
+                                                    </div> 
+                                                    <div class="col-2"></div>
+                                                    <p>
+                                                            <label>
+                                                              <input name="group5" class="with-gap" type="radio" checked />
+                                                              <span>1</span>
+                                                            </label>
+                                                          </p>
+                                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                                          <p>
+                                                            <label>
+                                                              <input name="group5" class="with-gap" type="radio" />
+                                                              <span>2</span>
+                                                            </label>
+                                                          </p>
+                                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                                          <p>
+                                                            <label>
+                                                              <input class="with-gap"  name="group5" type="radio"  />
+                                                              <span>3</span>
+                                                            </label>
+                                                          </p>
+                                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                                          <p>
+                                                            <label>
+                                                              <input name="group5" class="with-gap" type="radio"  checked/>
+                                                              <span>4</span>
+                                                            </label>
+                                                          </p>      
+                                                          &nbsp; &nbsp; &nbsp; &nbsp;
+                                                          <p>
+                                                            <label>
+                                                              <input name="group5" class="with-gap" type="radio"  />
+                                                              <span>5</span>
+                                                            </label>
+                                                          </p>                           
+                
+                
+                               <div class="col-4"></div>
+                                    <div class="col-md-4  ">
+
+                                      <a href="viewrole.html">  <input name="submit" type="submit " class="btn btn-success" value="submit"> </a>
+                                    </div>
+                               </div>
+                               <!-- end form element -->
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div></div>
+   </section>
+   
+
+<br>
+<!-- 
+<footer>
+
+            <center><h3>2019 &copy; <a href="#">Company Name</a></h3></center>
+  
+</footer> -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+
+
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav();
+$('.materialboxed').materialbox();
+$('.parallax').parallax();
+$('.tabs').tabs();
+$('.datepicker').datepicker();
+$('.timepicker').timepicker();
+$('select').formSelect();
+
+});
+</script>
+    </body>
+</html>
