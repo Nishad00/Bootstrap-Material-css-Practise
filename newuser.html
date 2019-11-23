@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>New User</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+</head>
+
+
+
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    ul li a{
+        font-size: 20px;
+    }
+    ul li a:hover{
+        text-decoration: none;
+        color: white;
+    }
+</style>    
+<body>
+<header>
+    <nav class="nav-wrapper indigo  " id="mainNav">
+            <div class="container">
+                <a href="#" class="brand-logo">Compony Logo</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                    <i class="material-icons" style="color: black;">menu</i>
+                </a>
+              <ul class="right hide-on-med-and-down">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#contact">Contact us</a></li>
+                  <li><a href="login.html">About us</a></li>
+
+          
+              </ul>
+          
+              <ul class="sidenav gray lighten-2" id="mobile-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#contact">Contact us</a></li>
+                <li><a href="login.html">About us</a></li>
+
+                 
+              </ul>
+            
+              </div>
+          </nav>
+        </header>
+
+
+
+<br>
+<!-- code for Form  Crete as per your Requirement Only Change Input field-->
+<div class="contact" id="contact">
+    
+   <section style="margin-top: 50px;" id="contact">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-md-8">
+                   <div class="card">
+                       <div class="card-body">
+                           <form class="contact__form" method="post" action="mail.php">
+                               <!-- form element -->
+
+                               <!-- Create form According to Your Requirment Of our Project if your have Any Problem Related to this Code if you not able to Understant something then Tell me. -->
+                               <div class="row justify-content-md-center">
+                                   <div class="col-md-12 form-group">
+                                       <input name="name" type="text" class="form-control" placeholder="Name" required>
+                                   </div>
+                                   <div class="col-md-12 form-group">
+                                       <input name="email" type="email" class="form-control" placeholder="Email" required>
+                                   </div>
+                                   <div class="col-md-12 form-group">
+                                       <input name="Post" type="text" class="form-control" placeholder="Post" required>
+                                   </div>
+                                   <div class="col-md-12 form-group">
+                                       <input name="qualification" type="text" class="form-control" placeholder="Qualification" required>
+                                   </div>
+                                   <div class="col-12 form-group">
+                                        <input type="text" class="datepicker" value="Date-Of-Birth">
+                                    </div>
+                                   <div class="col-12 form-group">
+                                       <textarea name="address" class="form-control" rows="3" placeholder="Address" required></textarea>
+                                   </div>
+                                       <div class="col-md-4">
+                                           <input name="submit" type="submit " class="btn btn-success" value="submit ">
+                                        </div>
+                               </div>
+                               <!-- end form element -->
+                           </form>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div></div>
+   </section>
+   
+
+<br>
+<!-- 
+<footer>
+
+            <center><h3>2019 &copy; <a href="#">Company Name</a></h3></center>
+  
+</footer> -->
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+
+
+<script>
+$(document).ready(function(){
+$('.sidenav').sidenav();
+$('.materialboxed').materialbox();
+$('.parallax').parallax();
+$('.tabs').tabs();
+$('.datepicker').datepicker();
+$('.timepicker').timepicker();
+$('select').formSelect();
+
+});
+</script>
+    </body>
+</html>
